@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB.DAL", "DB.DAL\DB.DAL.csproj", "{12DF709E-F518-4A22-9322-22D340BBE3E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB.DAL", "DB.DAL\DB.DAL.csproj", "{82DCCCBE-C183-4679-844E-F301C9571F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB.APP", "DB.APP\DB.APP.csproj", "{07708A82-158F-4E36-B760-D2753046E989}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12DF709E-F518-4A22-9322-22D340BBE3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12DF709E-F518-4A22-9322-22D340BBE3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12DF709E-F518-4A22-9322-22D340BBE3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12DF709E-F518-4A22-9322-22D340BBE3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DCCCBE-C183-4679-844E-F301C9571F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DCCCBE-C183-4679-844E-F301C9571F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DCCCBE-C183-4679-844E-F301C9571F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DCCCBE-C183-4679-844E-F301C9571F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07708A82-158F-4E36-B760-D2753046E989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07708A82-158F-4E36-B760-D2753046E989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07708A82-158F-4E36-B760-D2753046E989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07708A82-158F-4E36-B760-D2753046E989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

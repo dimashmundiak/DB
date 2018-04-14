@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{07708A82-158F-4E36-B760-D2753046E989}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DB.APP</RootNamespace>
+    <AssemblyName>DB.APP</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryFrom\FifthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryFrom\FifthForm.Designer.cs">
+      <DependentUpon>FifthForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryFrom\FirstForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryFrom\FirstForm.Designer.cs">
+      <DependentUpon>FirstForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryFrom\FourthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryFrom\FourthForm.Designer.cs">
+      <DependentUpon>FourthForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryFrom\SecondForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryFrom\SecondForm.Designer.cs">
+      <DependentUpon>SecondForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryFrom\SixthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryFrom\SixthForm.Designer.cs">
+      <DependentUpon>SixthForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryFrom\ThirdForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryFrom\ThirdForm.Designer.cs">
+      <DependentUpon>ThirdForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableForm\ArchiveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableForm\ArchiveForm.Designer.cs">
+      <DependentUpon>ArchiveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableForm\ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableForm\ClientForm.Designer.cs">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableForm\CustomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableForm\CustomForm.Designer.cs">
+      <DependentUpon>CustomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableForm\DepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableForm\DepartmentForm.Designer.cs">
+      <DependentUpon>DepartmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableForm\EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableForm\EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableForm\ServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableForm\ServiceForm.Designer.cs">
+      <DependentUpon>ServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableForm\StatisticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableForm\StatisticsForm.Designer.cs">
+      <DependentUpon>StatisticsForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QueryFrom\FifthForm.resx">
+      <DependentUpon>FifthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryFrom\FirstForm.resx">
+      <DependentUpon>FirstForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryFrom\FourthForm.resx">
+      <DependentUpon>FourthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryFrom\SecondForm.resx">
+      <DependentUpon>SecondForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryFrom\SixthForm.resx">
+      <DependentUpon>SixthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryFrom\ThirdForm.resx">
+      <DependentUpon>ThirdForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableForm\ArchiveForm.resx">
+      <DependentUpon>ArchiveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableForm\ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableForm\CustomForm.resx">
+      <DependentUpon>CustomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableForm\DepartmentForm.resx">
+      <DependentUpon>DepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableForm\EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableForm\ServiceForm.resx">
+      <DependentUpon>ServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableForm\StatisticsForm.resx">
+      <DependentUpon>StatisticsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DB.DAL\DB.DAL.csproj">
+      <Project>{82dcccbe-c183-4679-844e-f301c9571f06}</Project>
+      <Name>DB.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

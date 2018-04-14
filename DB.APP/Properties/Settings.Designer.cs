@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DB.DAL.Properties
+namespace DB.APP.Properties
 {
 
 
